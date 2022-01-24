@@ -1,0 +1,9 @@
+#Data Structures
+Welcome to this lesson on Data Structures! You'll learn about:
+
+Types of Data Structures: Lists, Tuples, Sets, Dictionaries, Compound Data Structures
+Operators: Membership, Identity
+Built-In Functions or Methods
+
+
+

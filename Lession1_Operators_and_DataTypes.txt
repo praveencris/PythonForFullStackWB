@@ -1,0 +1,71 @@
+Reserve Words In Python:- 
+https://docs.python.org/3/reference/lexical_analysis.html#keywords
+
+Python Best Practices:-
+https://www.python.org/dev/peps/pep-0008/
+
+Code Python Online: -
+https://www.programiz.com/python-programming/online-compiler/
+
+
+Example of data types and there types using type() function
+print(type(633))   - int
+print(type(633.0)) - float
+print(type('633')) - str
+print(type(True))  - bool
+
+print(type("0" + "5")) - str
+#print(type("0" + 5)) # Error can only concatenate str (not "int") to str - error
+#print(type(0 + "5")) #unsupported operand type(s) for +: 'int' and 'str' - error
+print(type(0 + 5)) - int
+
+
+Learn More about String format method:-
+https://docs.python.org/3.6/library/string.html#format-string-syntax
+
+Learn more about string methods:
+https://docs.python.org/3/library/stdtypes.html#string-methods
+
+Learn all about string methods:-
+https://docs.python.org/2/library/string.html
+
+verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
+print(verse)
+
+# Use the appropriate functions and methods to answer the questions above
+# Bonus: practice using .format() to output your answers in descriptive messages!
+print(len(verse))
+print(verse.find('and'))
+print(verse.rfind('you'))
+print(verse.count('you'))
+
+Output:-
+If you can keep your head when all about you
+  Are losing theirs and blaming it on you,
+If you can trust yourself when all men doubt you,
+  But make allowance for their doubting too;
+If you can wait and not be tired by waiting,
+  Or being lied about, don’t deal in lies,
+Or being hated, don’t give way to hating,
+  And yet don’t look too good, nor talk too wise:
+362
+65
+186
+8
+
+
+Helpful websites to practice:
+https://www.hackerrank.com/domains/python
+https://www.codewars.com/dashboard
+
+
+Python Reserve Words:
+https://docs.python.org/3/reference/lexical_analysis.html#keywords
+
+
+Naming Conventions for Functions
+Function names follow the same naming conventions as variables.
+
+Only use ordinary letters, numbers and underscores in your function names. They can’t have spaces, and need to start with a letter or underscore.
+You can’t use Python's reserved words or keywords for function names, as discussed earlier with variable names. Here again is that table of Python's reserved words.
+Try to use descriptive names that can help readers understand what the function does.
